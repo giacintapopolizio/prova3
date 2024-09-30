@@ -1,0 +1,68 @@
+@font-face {
+    font-family: "Belgiano";
+    src: url("../res/fonts/Belgiano/Belgiano\ Serif\ 2.ttf");
+    font-weight: normal;
+}
+
+body {
+    background-color: #FFD3C9; 
+    font-weight: normal;
+    text-align: center;
+}
+
+h1 {
+     font-size: 2.5rem;
+     color: #6b1f2d;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: left;
+    color: #6b1f2d;
+    padding-left: 2rem;
+}  
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contornotitolo {
+    margin: 2rem 6rem;
+    padding: 1rem;
+
+    background-color: none;
+    box-shadow: 0px 2px 0px 0px #6b1f2d;
+}
+
+ul li {
+    margin: 10px 0;
+    font-size: 1.8rem;
+    color: #a45a68;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #a45a68;
+    transition: color 0.3s;
+    transition: transform 0.3s ease, color 0.3s;
+}
+
+ul li a[href]:hover{
+    display: inline-block;
+    cursor: pointer;
+    transform: scale(1.1);
+    color: #6b1f2d;
+}
+
+.nellalezione {
+    text-align: left;
+    padding-left: 2rem;
+    padding-right: 1rem;
+
+}
+
+.tornaindice {
+    text-decoration: underline;
+    color: #6b1f2d;
+}
